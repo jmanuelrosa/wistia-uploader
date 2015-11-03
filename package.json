@@ -1,0 +1,40 @@
+{
+  "name": "wistiauploader",
+  "description": "Wistia Uploader Directive",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "keywords": [],
+  "license": {
+    "type": "ISC",
+    "url": "http://opensource.org/licenses/ISC"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "author": "Jose Manuel Rosa Moncayo",
+  "contributors": [
+    {
+      "name": "José Manuel Rosa Moncayo",
+      "email": "josemanuel.rosamoncayo@gmail.com"
+    }
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "angular": "^1.4.7",
+    "blueimp-file-upload": "^9.11.2",
+    "bootstrap": "^3.3.5",
+    "browser-sync": "^2.9.11",
+    "jquery": "^2.1.4",
+    "jscs": "*",
+    "jshint": "*"
+  }
+}

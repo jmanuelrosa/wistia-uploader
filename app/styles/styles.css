@@ -1,0 +1,73 @@
+html, body {
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Lato', sans-serif;
+}
+
+.main-header {
+    height: 100%;
+    text-align: center;
+}
+
+.cover {
+    background-image: url('/images/paradise.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.cover:before {
+    background: rgba(0,0,0,0.7);
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    padding: 10rem;
+}
+
+.title {
+    margin-bottom: 0;
+    margin-bottom: 3rem;
+}
+
+.form-group {
+    font-size: 1rem;
+}
+
+.wistia_responsive_padding {
+    padding:93.75% 0 0 0;
+    position:relative;
+}
+
+.wistia_responsive_wrapper {
+    height:100%;
+    left:0;
+    position:absolute;
+    top:0;
+    width:100%;
+}
+
+.wistia_embed {
+    height:100%;
+    width:100%
+}

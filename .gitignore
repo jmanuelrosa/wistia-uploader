@@ -1,0 +1,15 @@
+# Editor's files
+*.sublime-project
+*.sublime-workspace
+.idea
+
+# NodeJS
+node_modules
+npm-debug.log
+
+# Scaffolding
+.tmp
+
+# Generic Files
+*.log
+.DS_Store
