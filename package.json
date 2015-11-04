@@ -29,13 +29,13 @@
   },
   "dependencies": {
     "express": "^4.13.3"
-  },
-  "devDependencies": {
+    "jquery": "^2.1.4",
     "angular": "^1.4.7",
     "blueimp-file-upload": "^9.11.2",
-    "bootstrap": "^3.3.5",
+    "bootstrap": "^3.3.5"
+  },
+  "devDependencies": {
     "browser-sync": "^2.9.11",
-    "jquery": "^2.1.4",
     "jscs": "*",
     "jshint": "*"
   }
