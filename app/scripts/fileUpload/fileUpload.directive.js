@@ -118,7 +118,7 @@
                             defer.resolve(true);
                         }
                     });
-                }, 1000);
+                }, 2000);
 
                 return defer.promise;
             }
