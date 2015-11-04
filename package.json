@@ -28,7 +28,7 @@
     "start": "node server/index.js"
   },
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
     "jquery": "^2.1.4",
     "angular": "^1.4.7",
     "blueimp-file-upload": "^9.11.2",
