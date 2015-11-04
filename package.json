@@ -27,7 +27,9 @@
   "scripts": {
     "start": "node server/index.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.13.3"
+  },
   "devDependencies": {
     "angular": "^1.4.7",
     "blueimp-file-upload": "^9.11.2",
